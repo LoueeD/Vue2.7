@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vite dev",
     "build": "vite build",
-    "test:unit": "vite test:unit",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "lint": "vite lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -42,7 +43,7 @@
     "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-airbnb": "^6.0.0",
     "@vue/eslint-config-typescript": "^9.1.0",
-    "@vue/test-utils": "^1.1.3",
+    "@vue/test-utils": "^1.3.0",
     "@vue/vue2-jest": "^27.0.0-alpha.2",
     "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.5",
@@ -56,6 +57,7 @@
     "sass-loader": "^12.0.0",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5",
+    "vitest": "^0.22.0",
     "vue-loader": "^15.10.0",
     "vue-template-compiler": "^2.6.14"
   }
